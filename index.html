@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My To-Do List</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>📋 나의 할 일 목록</h1>
-    <p>오늘 할일 </p>
+    <div class="container">
+        <h1>📋 나의 할 일 목록</h1>
+        <p>오늘 할 일들을 정리해보세요:</p>
 
-    <ul>
-        <li><label><input type="checkbox"> HTML 공부하기</label></li>
-        <li><label><input type="checkbox"> GitHub에 첫 푸시하기</label></li>
-        <li><label><input type="checkbox"> 브라우저에서 결과 확인하기</label></li>
-        <li><label><input type="checkbox"> 끝</label></li>
-    </ul>
+        <ul id="todo-list">
+            <li><label><input type="checkbox" /> HTML 공부하기</label></li>
+            <li><label><input type="checkbox" /> GitHub에 첫 푸시하기</label></li>
+            <li><label><input type="checkbox" /> 브라우저에서 결과 확인하기</label></li>
+    
+        </ul>
 
+    </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
