@@ -60,3 +60,8 @@ blockquote {
     border-left: 4px solid #3498db;
     padding-left: 15px;
 }
+.completed {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.6;
+}
